@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+    <title>Ankit's Portfolio</title>
+</head>
+
+<body>
+    <div class="hero">
+        <nav>
+            <p class="logo"> Ankit's Portfolio </p>
+            <ul id="menu">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">PORTFOLIO</a></li>
+                <li><a href="">SERVICES</a></li>
+                <li><a href="">HIRE ME</a></li>
+            </ul>
+            <img src="side.png" alt="" onclick="myFunction()">
+        </nav>
+        <div class="img-mob">
+            <img src="main-img.png" alt="ItsAnkitPandey">
+            <hr>
+        </div>
+        <div class="info">
+            <h1>I'm <span>Ankit</span> Pandey</h1>
+            <p>This is my official porfolio website to showcase my all works related to <br>
+                frontend web developement.</p>
+            <a href="cv.pdf"> Download CV </a> &nbsp;&nbsp;&nbsp;
+            <a href="tel:6391735294">Call Me!</a>&nbsp;&nbsp;&nbsp;
+            <a href="mailto:ankitpandey.272003@gmail.com?subject=you&#*27;ve%20got%20mail.">Email Me</a>
+        </div>
+        <div class="img">
+            <img src="pattern.png" alt="" class="back-img">
+            <img src="main-img.png" alt="" class="main-img">
+        </div>
+        <div class="social">
+            <a href="https://www.github.com/ItsAnkitPandey" rel="noopener-noreferer" class="youtube"><i
+                    class="fa fa-github" aria-hidden="true"></i></a>
+            <a href="https://www.facebook.com/pandeyankit2001" rel="noopener-noreferer" class="facebook"><i
+                    class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="https://www.instagram.com/_iankitpandit_" rel="noopener-noreferer" class="instagram"><i
+                    class="fa fa-instagram" aria-hidden="true"></i></a>
+        </div>
+
+    </div>
+    <hr>
+    <hr>
+    <div class="contact">
+
+        <form action="mail.php" method="POST">
+            <h3>Lets Work Together! </h3>
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" placeholder="Email Id" name="email" required>
+            <input type="text" name="phone" placeholder="Phone no." required>
+            <textarea placeholder="Type Your Message" name="message" rows="4"></textarea>
+            <button type="submit">Send</button>
+
+
+        </form>
+
+
+
+    </div>
+    <footer>
+        <p>&copy; Ankit Pandey 2022</p>
+    </footer>
+
+    <script>
+
+        function myFunction() {
+            var x = document.getElementById("menu");
+
+            if (x.style.display == "block") {
+                x.style.display = "none";
+
+            }
+            else {
+                x.style.display = "block";
+            }
+
+        }
+    </script>
+
+  
+<!--    
+        // let name1 = prompt("What is your name?");
+        // alert(" Welcome " + name1 + " to SpiderWeb "); -->
+   
+
+</body>
+
+</html>
